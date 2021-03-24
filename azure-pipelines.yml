@@ -14,10 +14,7 @@ jobs:
 
     pool:
       name: Hosted Ubuntu 1604
-      displayName: "It's the name displayed for the Pool agent"
-
-pool:
-  vmImage: ubuntu-latest
+      displayName: "It's the name displayed for the Pool"
 
 steps:
 - task: Maven@3
