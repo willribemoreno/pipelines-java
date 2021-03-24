@@ -8,6 +8,14 @@ name: $(Build.DefinitionName)_$(SourceBranchName)_$(Date:yyyyMMdd)$(Rev:.r)
 trigger:
 - master
 
+jobs:
+  - job: It is only a job test
+    displayName: 'Build Browserstack Test Suite'
+
+    pool:
+      name: Hosted Ubuntu 1604
+      displayName: "It's the name displayed for the Pool agent"
+
 pool:
   vmImage: ubuntu-latest
 
