@@ -9,12 +9,12 @@ trigger:
 - master
 
 jobs:
-  - job: It is only a job test
+  - job: It_is_only_a_job_test
     displayName: 'Build Browserstack Test Suite'
 
     pool:
       name: Hosted Ubuntu 1604
-      displayName: "It_s_the_name_displayed_for_the_Pool"
+      displayName: "It's the name displayed for the Pool"
 
     steps:
     - task: Maven@3
