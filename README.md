@@ -1,3 +1,4 @@
+[![Build Status](https://dev.azure.com/WilliamRibeiro0945/Pipeline%20training/_apis/build/status/Azure%20Learning%20Pipeline-java?branchName=master)](https://dev.azure.com/WilliamRibeiro0945/Pipeline%20training/_build/latest?definitionId=1&branchName=master)
 
 # Contributing
 
