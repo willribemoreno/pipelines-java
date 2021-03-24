@@ -14,7 +14,7 @@ jobs:
 
     pool:
       name: Hosted Ubuntu 1604
-      displayName: "It's the name displayed for the Pool"
+      displayName: "It_s_the_name_displayed_for_the_Pool"
 
     steps:
     - task: Maven@3
